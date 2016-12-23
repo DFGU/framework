@@ -163,7 +163,7 @@ In case Aurelia is supposed to load an external file or an external module that 
 > Warning
 > Since the syntax is still relatively new, many Aurelia plugins do not declare their resources. If you are developing an Aurelia plugin, make sure you do this, so that your users do not have to. The `package.json` syntax is similar, with the one exception that resources are relative to the root directory of the plugin, as there is no `src` folder. 
 
-There might reasons not to declare those resources in all cases,for example when the plugin is to be partially consumed (e.g. only one Button element from a package containing multiple Aurelia elements).
+There might be reasons not to declare those resources in all cases, for example when the plugin is to be partially consumed (e.g. only one Button element from a package containing multiple Aurelia elements).
 
 If we'd like to consume such external resources, we should declare them ourselves, for example:
 
